@@ -1,7 +1,7 @@
-package pt.edu.ipl.greenhouse.greeting;
+package pt.edu.ipl.greenhouse.controller.greeting;
 
 /**
- * Package: pt.edu.ipl.greenhouse.greeting
+ * Package: pt.edu.ipl.greenhouse.controller.greeting
  * For the project Prediction
  * Created by SchubertDavidRodriguez on 5/21/17 at 20:41
  *

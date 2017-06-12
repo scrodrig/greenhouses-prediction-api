@@ -12,5 +12,4 @@ public class PredicitionApplicationTests {
 	@Test
 	public void contextLoads() {
 	}
-
 }
