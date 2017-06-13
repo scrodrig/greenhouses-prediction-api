@@ -8,16 +8,14 @@
  */
 package pt.edu.ipl.greenhouse.controller.prediction;
 
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 import pt.edu.ipl.greenhouse.containers.Measurement;
 import pt.edu.ipl.greenhouse.containers.MeasurementAll;
 import pt.edu.ipl.greenhouse.controller.instances.SmoregInstance;
 import pt.edu.ipl.greenhouse.enums.ModelType;
 import pt.edu.ipl.greenhouse.model.SMOregModel;
 
+@CrossOrigin
 @RestController
 @RequestMapping ("/prediction")
 public class ResultController {
